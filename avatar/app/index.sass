@@ -1,0 +1,51 @@
+
+$base-color: darkgreen
+
+html
+  background-color: #333
+
+.background
+  background-color: black
+  display: flex
+  align-items: center
+  justify-content: center
+  width: 600px
+  height: 600px
+
+  .content
+    width: 500px
+    height: 500px
+    position: absolute
+
+    .screen
+      position: absolute
+      width: 160px
+      height: 90px
+      background-color: $base-color
+      border-radius: 10px 0 0 10px
+
+      &:after
+        position: absolute
+        visibility: visible
+        content: ''
+        background-color: lighten( $base-color, 10% )
+        left: 160px
+        height: 90px
+        width: 10px
+        border-radius: 0 10px 10px 0
+
+    .screen-base
+      position: absolute
+      width: 40px
+      height: 40px
+      background-color: $base-color
+      top: 90px
+      left: 60px
+
+      &:after
+        content: ''
+        position: absolute
+        background-color: lighten($base-color, 20%)
+        left: 40px
+        width: 5px
+        height: 40px
