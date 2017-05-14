@@ -1,0 +1,19 @@
+{
+  "name": "avatar",
+  "version": "0.0.1",
+  "description": "avatar",
+  "main": "gulpfile.js",
+  "scripts": {
+    "start": "gulp"
+  },
+  "author": "Daniel Szukitsch",
+  "license": "",
+  "devDependencies": {
+    "browser-sync": "^2.6.11",
+    "gulp": "^3.9.1",
+    "gulp-bom": "^1.0.0",
+    "gulp-jade": "^1.1.0",
+    "gulp-sass": "^2.3.2",
+    "gulp-sourcemaps": "^1.6.0"
+  }
+}
